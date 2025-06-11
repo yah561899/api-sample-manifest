@@ -1,5 +1,9 @@
 apiVersion: v2
 name: sampleapi-helm
 description: A Helm chart for .NET Sample API
-version: 0.1.0
+version: 1.0.0
 appVersion: "latest"
+dependencies:
+  - name: backend-service
+    repository:  https://nexus.devops.allytransport.com.tw/repository/helm-hosted/
+    version: 1.0.0
