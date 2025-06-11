@@ -5,5 +5,5 @@ version: 1.0.0
 appVersion: "latest"
 dependencies:
   - name: backend-service
-    repository:  https://nexus.devops.allytransport.com.tw/repository/helm-hosted/
+    repository:  http://8081/repository/helm-hosted/
     version: 1.0.0
