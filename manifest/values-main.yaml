@@ -1,5 +1,6 @@
-env:
-  ASPNETCORE_ENVIRONMENT: Development
+global:
+  env:
+    ASPNETCORE_ENVIRONMENT: Development
 
-  RedisHost: "127.0.0.1"
-  RedisPort: "6379"
+    RedisHost: "127.0.0.1"
+    RedisPort: "6379"

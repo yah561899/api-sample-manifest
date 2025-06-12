@@ -6,4 +6,4 @@ appVersion: "latest"
 dependencies:
   - name: backend-service
     repository: http://nexus-nexus-repository-manager.nexus.svc.cluster.local:8081/repository/helm-hosted/
-    version: 1.0.3
+    version: 1.0.4
